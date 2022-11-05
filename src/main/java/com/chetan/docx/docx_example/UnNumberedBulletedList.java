@@ -78,7 +78,7 @@ private static P createParagraph(String country) throws JAXBException {
     // The <w:numId> element
     PPrBase.NumPr.NumId numIdElement = factory.createPPrBaseNumPrNumId();
     numPr.setNumId(numIdElement);
-    numIdElement.setVal(BigInteger.valueOf(1));
+    numIdElement.setVal(BigInteger.valueOf(2));
     return p;
 }
 
